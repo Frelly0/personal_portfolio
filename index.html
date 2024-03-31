@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,274 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/person.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body class="main-content">
     <header class="section sec1 header active" id="home">
-        <div class="left-header">
-            <img src="./images/ali.png" alt="" class="image">
-        </div>
-        <div class="right-header">
-            <h1 class="name">
-                Hi, I'm <span>Gisa Frelly</span>
-                A Front-End Developer
-            </h1>
-            <p>
-                I'm a passionate front-end developer dedicated to crafting immersive and engaging digital experiences. 
-                With a blend of creativity and technical expertise, I specialize in translating design concepts 
-                into polished, interactive user interfaces.
-            </p>
-            <a href="https://fontawesome.com/icons/download?f=classic&s=solid" class="main-btn" target="_blank">
-                <span class="btn-text">Download CV</span>
-                <span class="btn-text"><i class="fa-solid fa-download"></i></span>
-            </a>
-            
-            <button><a href="./more-files/Gisa frelly(CV).pdf" target="_blank">aaa</a></button>
+        <div class="header-content">
+            <div class="left-header">
+                <img src="./images/ali.png" alt="" class="image">
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Gisa Frelly</span>
+                    A Front-End Developer
+                </h1>
+                <p>
+                    I'm a passionate front-end developer dedicated to crafting immersive and engaging digital
+                    experiences.
+                    With a blend of creativity and technical expertise, I specialize in translating design concepts
+                    into polished, interactive user interfaces.
+                </p>
+                <a href="frellyCV.pdf" class="main-btn" target="_blank">
+                    Download CV <i class="fa-solid fa-download"></i>
+                </a>
+                <!-- Swiper -->
+                <div class="swiper">
+                    <h1 class="skill">Skills and Technologies</h1>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/css3.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/github.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/html5.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/javascript.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/react.js.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/tailwindcss.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/typescript.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <!-- Swiper JS -->
+            </div>
         </div>
 
+
     </header>
+
     <main>
-        <section class="section sec2 about" id="about"></section>
-        <section class="section sec3 portfolio" id="portfolio"></section>
-        <section class="section sec4 contact" id="contact"></section>
+        <section class="section sec2 about" id="about">
+            <div id="abouting">
+                <div class="about-part">
+                    <div class="main-title">
+                        <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+                    </div>
+                    <div class="second-part">
+                        <h1>Information About me...</h1>
+                        <p>Driven by a relentless pursuit of excellence, I thrive on the challenges of front-end
+                            development. My journey in this field has equipped me with a diverse skill set and a deep
+                            understanding of modern web technologies.</p> <br>
+                        <p>As a front-end developer, I focus on crafting clean, responsive interfaces using HTML, CSS,
+                            and
+                            JavaScript. From conceptualization to execution, I'm dedicated to ensuring that every
+                            project I
+                            work on exceeds expectations and delivers a memorable user experience.</p> <br>
+                        <p>I believe in the power of collaboration and continuous learning. By staying updated with the
+                            latest industry trends and best practices, I'm able to push the boundaries of what's
+                            possible in
+                            front-end development and deliver results that make a lasting impact.</p>
+                    </div>
+                </div>
+                <div class="resume-part">
+                    <div class="main-title">
+                        <h2>Re<span>su</span>me <span class="bg-text">Resume</span></h2>
+                        <div class="res">
+                            <h3>Certificate</h3>
+                            <div class="cer">
+                                <div>JavaScript Algorithms and Data Structures By <a href="https://www.freecodecamp.org/certification/fccb684a48e-41ad-4ffc-b658-02fae8a5667d/
+                                        javascript-algorithms-and-data-structures" target="_blank">FreeCodeCamp</a>
+                                </div>
+                                <div>HTML & CSS By <a
+                                        href="https://www.credential.net/798e9c22-160d-4fe9-baea-1108dccd85be#gs.75mkh4"
+                                        target="_blank">Microverse</a>
+                                </div>
+                                <div>Responsive Web Design By <a
+                                        href="https://www.freecodecamp.org/certification/fccb684a48e-41ad-4ffc-b658-02fae8a5667d/responsive-web-design"
+                                        target="_blank">FreeCodeCamp</a>
+                                </div>
+                            </div>
+                            <h3>Education</h3>
+                            <div class="edu">
+                                <div>
+                                    <h5>Bachelor in Computer engineering, In University of
+                                        tourism, technology and business (UTB)</h5>
+                                    <p>2019 - 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in JavaScript
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./images/project-1.png" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>Project Name</h1>
+                        <p>description.... <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis, amet?</small></p>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank">Live Preview <i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./images/project-1.png" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>Project Name</h1>
+                        <p>description.... <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis, amet?</small></p>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank">Live Preview <i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./images/project-1.png" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>Project Name</h1>
+                        <p>description.... <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis, amet?</small></p>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank">Live Preview <i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./images/project-1.png" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>Project Name</h1>
+                        <p>description.... <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis, amet?</small></p>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank">Live Preview <i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./images/project-1.png" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>Project Name</h1>
+                        <p>description.... <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis, amet?</small></p>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank">Live Preview <i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./images/project-1.png" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>Project Name</h1>
+                        <p>description.... <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Perspiciatis, amet?</small></p>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" target="_blank">View Code <i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank">Live Preview <i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load" id="load">Load More</button>
+        </section>
+        <section class="section sec4 contact" id="contact">
+            <div class="main-title">
+                <h2>Contact <span>Me</span><span class="bg-text">My Contacts</span></h2>
+            </div>
+            <div class="contact-page">
+                <div class="left-page">
+                    <h3 class="head">Contact Me Here</h3>
+                    <div class="address">
+                        <div>
+                            <div class="side-one"><i class="fa-solid fa-location-dot"></i>
+                                <p>Location</p>
+                            </div>
+                            <div class="side-one">:Rwanda,Kigali,Kicukiro</div>
+                        </div>
+                        <div>
+                            <div class="side-one"><i class="fas fa-envelope"></i>
+                                <p>Email</p>
+                            </div>
+                            <div class="side-one">:gisafrelly@gmail.com</div>
+                        </div>
+                        <div>
+                            <div class="side-one"><i class="fa-solid fa-phone"></i>
+                                <p>Phone Number</p>
+                            </div>
+                            <div class="side-one">:+250787018537</div>
+                        </div>
+                        <div>
+                            <div class="side-one"><i class="fa-solid fa-language"></i>
+                                <p>Languages</p>
+                            </div>
+                            <div class="side-one">:English, Kinyarwanda</div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f" target="_blank"></i></a>
+                        <a href="https://twitter.com/frellygisa" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/Frelly0"><i class="fa-brands fa-github" target="_blank"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/gisa-frelly-b90490184/"><i class="fa-brands fa-linkedin-in"
+                                target="_blank"></i></a>
+                    </div>
+                </div>
+                <div class="right-page">
+                    <form action="https://formspree.io/f/myyrnnja" method="post" class="form">
+                        <input type="text" name="text" id="text" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" autocomplete="off"
+                            placeholder="Your Message" required></textarea>
+                        <button type="submit" id="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
     </main>
 
     <div class="controlls">
         <div class="control control-1 active-btn" data-id="home">
-            <p class="text">Home</p>
+            <p class="text">Home..</p>
             <i class="fa-solid fa-house"></i>
         </div>
         <div class="control control-2" data-id="about">
-            <p class="text">About</p>
+            <p class="text">About..</p>
             <i class="fa-solid fa-user"></i>
         </div>
         <div class="control control-3" data-id="portfolio">
@@ -53,11 +283,52 @@
             <i class="fa-solid fa-briefcase"></i>
         </div>
         <div class="control control-4" data-id="contact">
-            <p class="text">Project</p>
+            <p class="text">Contact</p>
             <i class="fa-solid fa-envelope"></i>
         </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="./js files/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
 </body>
+
 </html>
