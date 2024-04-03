@@ -49,16 +49,46 @@ loadMoreBtn.onclick = () => {
     let boxes = [...document.querySelectorAll('.portfolios .portfolio-item')];
     for (var i = currentItem; i < currentItem + 6; i++) {
         boxes[i].style.display = 'inline-block';
-        // console.log(boxes[i]);
+        
     }
     currentItem += 6;
 }
 
-// ---------------------btn..................
+const projects = [
+    {
+        name: 'Portfolio',
+        image: './images/Screenshot-portfoli.png',
+        desc: 'This is project that showcase my project I have done with only html,css and javascript',
+        linkOne: 'https://github.com/Frelly0/personal_portfolio',
+        linkTwo: 'https://frelly0.github.io/personal_portfolio/',
+    }
+];
 
-const button = document.getElementById('btn');
-button.addEventListener('click', () => {
-    // alert('Message successfull send...')
+
+const boxi = document.querySelector('.portfolios');
+
+window.addEventListener('DOMContentLoaded', ()=> {
+    let all = projects.map((item) => 
+        `
+        <div class="portfolio-item">
+                    <div class="image">
+                        <img src="${item.image}" alt="">
+                    </div>
+                    <div class="hover-item">
+                        <h1>${item.name}</h1>
+                        <small>${item.desc}</small>
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="${item.linkOne}" target="_blank">View Code <i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="${item.linkTwo}" target="_blank">Live Preview <i
+                                    class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+        `
+    ).join('');
+    boxi.innerHTML = all;
 })
 
 

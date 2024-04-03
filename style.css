@@ -440,7 +440,12 @@ section {
   border-radius: 10px;
   margin-left: 45%;
   bottom: 0;
+  transition: var(--transition);
   cursor: pointer;
+}
+
+.load:hover {
+  transform: scale(1.2);
 }
 
 
