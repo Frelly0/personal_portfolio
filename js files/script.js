@@ -61,6 +61,13 @@ const projects = [
         desc: 'This is project that showcase my project I have done with only html,css and javascript',
         linkOne: 'https://github.com/Frelly0/personal_portfolio',
         linkTwo: 'https://frelly0.github.io/personal_portfolio/',
+    },
+    {
+        name: 'Rock-Paper-Scissor',
+        image: './images/rock-paper.png',
+        desc: 'A rock_paper_scissor game',
+        linkOne: 'https://github.com/Frelly0/rock-paper-scissor',
+        linkTwo: 'https://frelly0.github.io/rock-paper-scissor/',
     }
 ];
 
