@@ -68,7 +68,14 @@ const projects = [
         desc: 'A rock_paper_scissor game',
         linkOne: 'https://github.com/Frelly0/rock-paper-scissor',
         linkTwo: 'https://frelly0.github.io/rock-paper-scissor/',
-    }
+    },
+    {
+        name: 'Calculator',
+        image: './images/calculate.png',
+        desc: 'Calculator App',
+        linkOne: 'https://github.com/Frelly0/Calculator',
+        linkTwo: 'https://frelly0.github.io/Calculator/',
+    },
 ];
 
 
