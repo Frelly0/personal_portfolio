@@ -76,6 +76,13 @@ const projects = [
         linkOne: 'https://github.com/Frelly0/Calculator',
         linkTwo: 'https://frelly0.github.io/Calculator/',
     },
+    {
+        name: 'Weather App',
+        image: './images/weather.png',
+        desc: 'weather Application',
+        linkOne: 'https://github.com/Frelly0/weatherApplication',
+        linkTwo: 'https://frelly0.github.io/weatherApplication/',
+    },
 ];
 
 
