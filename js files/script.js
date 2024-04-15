@@ -83,6 +83,28 @@ const projects = [
         linkOne: 'https://github.com/Frelly0/weatherApplication',
         linkTwo: 'https://frelly0.github.io/weatherApplication/',
     },
+    {
+        name: 'Library',
+        image: './images/library.png',
+        desc: 'Library aplication',
+        linkOne: 'https://github.com/Frelly0/Library_App',
+        linkTwo: 'https://frelly0.github.io/Library_App/',
+    },
+    {
+        name: 'Landing Page',
+        image: './images/landing.png',
+        desc: 'landing page',
+        linkOne: 'https://github.com/Frelly0/Landing_Page',
+        linkTwo: 'https://frelly0.github.io/Landing_Page/',
+    },
+    {
+        name: 'Recipe App',
+        image: './images/recipe.png',
+        desc: 'Recipe application',
+        linkOne: 'https://github.com/Frelly0/Recipe_App',
+        linkTwo: 'https://frelly0.github.io/Recipe_App/',
+    },
+    
 ];
 
 
